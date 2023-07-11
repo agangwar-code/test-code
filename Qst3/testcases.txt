@@ -1,0 +1,29 @@
+object = {"abc": {"bcde": {"cefdg": "dfghi"}}}
+key = "abc/bcde/cefdg"
+
+object = {"abc": {"bcde": {"cefdg": "dfghi"}}}
+key = "xyz"
+
+object = {}
+key = "abc"
+
+object = {"1": {2: {"3": "value"}}}
+key = "1/2/3"
+
+object = {"abc": {"bcde": {"cefdg": "value1"}}, "a": {"b": {"c": "value2"}}}
+key = "a/b/c"
+
+object = "Not a dictionary"
+key = "abc"
+
+object = {"abc": {"bcde": {"cefdg": "dfghi"}}}
+key = ""
+
+object = {"ab": {"abc": {"abcdef": "value"}}}
+key = "abc"
+
+object = {"abc": {"bcde": {"cefdg": "value1"}}, "abc/bcde": {"cefdg": "value2"}}
+key = "abc/bcde/cefdg"
+
+object = {"abc": {"bcde": {"cefdg": "dfghi"}}}
+key = "abc/bcde/cefdg"
